@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Bingo Calculator</title>
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <script src="assets/js/script.js"></script>
+</head> 
+<body>
+  <div class="container">
+    <h1>Bingo Calculator</h1>
+
+    <div class="input-container">
+      <label for="bags">How many bags do you have?</label>
+      <input type="number" id="bags" name="bags">
+      <button onclick="calculateBingo()">Calculate Bingo</button>
+    </div>
+
+    <div class="results-container">
+      <p>Bingo 1 = <span id="bingo1">0</span></p>
+      <p>Bingo 2 = <span id="bingo2">0</span></p>
+      <p>Bingo 3 = <span id="bingo3">0</span></p>
+      <p>Bingo 4 = <span id="bingo4">0</span></p>
+      <p>Bingo 5 = <span id="bingo5">0</span></p>
+      <p>Bingo 6 = <span id="bingo6">0</span></p>
+      <p>Bingo 7 = <span id="bingo7">0</span></p>
+      <p id="excess">Excess: 0</p>
+    </div>
+  </div>
+</body>
+</html>

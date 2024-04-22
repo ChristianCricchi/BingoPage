@@ -1,0 +1,60 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Input container styles */
+  .input-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .input-container label,
+  .input-container input,
+  .input-container button {
+    margin: 5px;
+  }
+  
+  /* Results container styles */
+  .results-container {
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 5px;
+  }
+  
+  .results-container p {
+    margin: 5px 0;
+  }
+  
+  /* Responsive styles */
+  @media (max-width: 600px) {
+    .container {
+      padding: 10px;
+    }
+  
+    .input-container {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .input-container label,
+    .input-container input,
+    .input-container button {
+      width: 100%;
+      max-width: 300px;
+    }
+  
+    .results-container {
+      padding: 10px;
+    }
+  }
