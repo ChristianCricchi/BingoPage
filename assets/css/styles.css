@@ -1,4 +1,4 @@
-/* General styles */
+/* General Styles */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -11,7 +11,7 @@ body {
     padding: 20px;
   }
   
-  /* Input container styles */
+  /* Input Container Styles */
   .input-container {
     display: flex;
     flex-wrap: wrap;
@@ -25,7 +25,7 @@ body {
     margin: 5px;
   }
   
-  /* Results container styles */
+  /* Results Container Styles */
   .results-container {
     background-color: #f4f4f4;
     padding: 20px;
@@ -36,8 +36,8 @@ body {
     margin: 5px 0;
   }
   
-  /* Responsive styles */
-  @media (max-width: 600px) {
+  /* Responsive Styles */
+  @media (max-width: 767px) {
     .container {
       padding: 10px;
     }
@@ -56,5 +56,25 @@ body {
   
     .results-container {
       padding: 10px;
+    }
+  
+    .results-container p {
+      font-size: 14px;
+    }
+  }
+  
+  @media (min-width: 768px) and (max-width: 1023px) {
+    .container {
+      padding: 15px;
+    }
+  
+    .input-container label,
+    .input-container input,
+    .input-container button {
+      max-width: 400px;
+    }
+  
+    .results-container p {
+      font-size: 16px;
     }
   }
